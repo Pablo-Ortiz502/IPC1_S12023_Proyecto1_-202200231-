@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Registro.Registro">
+  <grid id="27dc6" binding="regisroPane" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="408" height="604"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="dfd21" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="358ad" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="1" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="REGISTRO"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="a624d" layout-manager="GridLayoutManager" row-count="13" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="9a54f" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="NOMBRE"/>
+            </properties>
+          </component>
+          <component id="5ca55" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="APELLIDO"/>
+            </properties>
+          </component>
+          <component id="3beac" class="javax.swing.JTextField" binding="nombretextField1">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="da858" class="javax.swing.JTextField" binding="apellidotextField2">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="34a92" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="ALIAS"/>
+            </properties>
+          </component>
+          <component id="4bf33" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="CORREO"/>
+            </properties>
+          </component>
+          <component id="80052" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="TELEFONO"/>
+            </properties>
+          </component>
+          <component id="3366f" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="DPI"/>
+            </properties>
+          </component>
+          <component id="7a515" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="NIT"/>
+            </properties>
+          </component>
+          <component id="1cc3a" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Genero"/>
+            </properties>
+          </component>
+          <component id="8ba5a" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="11" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Nacionalidad"/>
+            </properties>
+          </component>
+          <component id="aef67" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="12" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Rol"/>
+            </properties>
+          </component>
+          <component id="5e0fb" class="javax.swing.JTextField" binding="aliastextField3">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="106c7" class="javax.swing.JTextField" binding="correotextField4">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="dcfaa" class="javax.swing.JTextField" binding="telefonotextField5">
+            <constraints>
+              <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="de10a" class="javax.swing.JTextField" binding="dpitextField6">
+            <constraints>
+              <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="57f7" class="javax.swing.JTextField" binding="nittextField7">
+            <constraints>
+              <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="fc75f" class="javax.swing.JComboBox" binding="generocomboBox1">
+            <constraints>
+              <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <model>
+                <item value="Mujer"/>
+                <item value="Hombre"/>
+              </model>
+            </properties>
+          </component>
+          <component id="f699e" class="javax.swing.JComboBox" binding="paiscomboBox2">
+            <constraints>
+              <grid row="11" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <model>
+                <item value="Albania"/>
+                <item value="Alemania"/>
+                <item value="Andorra"/>
+                <item value="Austria"/>
+                <item value="Azerbaiyán"/>
+                <item value="Antigua y Barbuda"/>
+                <item value="Argentina"/>
+                <item value="Bélgica"/>
+                <item value="Bielorrusia"/>
+                <item value="Bosnia y Herzegovina / Bosnia-Herzegovina"/>
+                <item value="Bulgaria"/>
+                <item value="Bahamas"/>
+                <item value="Barbados"/>
+                <item value="Belice"/>
+                <item value="Bolivia"/>
+                <item value="Brasil"/>
+                <item value="Canadá"/>
+                <item value="Chile"/>
+                <item value="Colombia"/>
+                <item value="Costa Rica"/>
+                <item value="Cuba"/>
+                <item value="Chipre"/>
+                <item value="Croacia"/>
+                <item value="Dominica"/>
+                <item value="Dinamarca"/>
+                <item value="República Dominicana"/>
+                <item value="España"/>
+                <item value="Estonia"/>
+                <item value="Ecuador"/>
+                <item value="El Salvador"/>
+                <item value="Estados Unidos"/>
+                <item value="Finlandia"/>
+                <item value="Francia"/>
+                <item value="Grecia"/>
+                <item value="Granada"/>
+                <item value="Guatemala"/>
+                <item value="Guyana"/>
+                <item value="Hungría"/>
+                <item value="Haití"/>
+                <item value="Honduras"/>
+                <item value="Jamaica"/>
+                <item value="Irlanda"/>
+                <item value="Islandia"/>
+                <item value="Italia"/>
+                <item value="Letonia"/>
+                <item value="Liechtenstein"/>
+                <item value="Lituania"/>
+                <item value="Luxemburgo"/>
+                <item value="Macedonia del Norte"/>
+                <item value="Malta"/>
+                <item value="Moldavia"/>
+                <item value="Mónaco"/>
+                <item value="Montenegro"/>
+                <item value="México"/>
+                <item value="Noruega"/>
+                <item value="Nicaragua"/>
+                <item value="Panamá"/>
+                <item value="Paraguay"/>
+                <item value="Perú"/>
+                <item value="Países Bajos"/>
+                <item value="Polonia"/>
+                <item value="Portugal"/>
+                <item value="Reino Unido"/>
+                <item value="Rumania / Rumanía"/>
+                <item value="Rusia"/>
+                <item value="Serbia"/>
+                <item value="Suecia"/>
+                <item value="Suiza"/>
+                <item value="San Cristóbal y Nieves"/>
+                <item value="San Vicente y las Granadinas"/>
+                <item value="Santa Lucía"/>
+                <item value="Surinam"/>
+                <item value="Trinidad y Tobago"/>
+                <item value="Uruguay"/>
+                <item value="Ucrania"/>
+                <item value="Venezuela"/>
+              </model>
+            </properties>
+          </component>
+          <component id="e4b81" class="javax.swing.JComboBox" binding="rolcomboBox3">
+            <constraints>
+              <grid row="12" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <model>
+                <item value="Kiosco"/>
+                <item value="Individual"/>
+                <item value="Empresarial"/>
+              </model>
+            </properties>
+          </component>
+          <component id="4db59" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Contraseña"/>
+            </properties>
+          </component>
+          <component id="993d1" class="javax.swing.JTextField" binding="paswordtextField8">
+            <constraints>
+              <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="b1931" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Tarjeta credito/debito"/>
+            </properties>
+          </component>
+          <component id="2c5cd" class="javax.swing.JTextField" binding="tarjetacdtextField1">
+            <constraints>
+              <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="ec45a" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Direcion"/>
+            </properties>
+          </component>
+          <component id="fd1ba" class="javax.swing.JTextField" binding="direcciontextField1">
+            <constraints>
+              <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+        </children>
+      </grid>
+      <grid id="79ffd" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="c3383" class="javax.swing.JButton" binding="registrarButton">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="REGISTRAR"/>
+            </properties>
+          </component>
+          <grid id="5ee5c" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="68884" class="javax.swing.JButton" binding="cancelarButton">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="CANCELAR"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

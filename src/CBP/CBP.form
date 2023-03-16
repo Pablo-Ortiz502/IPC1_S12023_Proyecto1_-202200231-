@@ -1,0 +1,1283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="CBP.CBP">
+  <grid id="27dc6" binding="pagoPane" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="927" height="727"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="35f81" layout-manager="GridLayoutManager" row-count="7" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="7b08b" layout-manager="GridLayoutManager" row-count="3" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="34797" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Origen"/>
+                </properties>
+              </component>
+              <vspacer id="564af">
+                <constraints>
+                  <grid row="1" column="0" row-span="2" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </vspacer>
+              <component id="e0e10" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Departamento"/>
+                </properties>
+              </component>
+              <component id="e6712" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Municipios"/>
+                </properties>
+              </component>
+              <component id="a71af" class="javax.swing.JComboBox" binding="origenDepacomboBox1">
+                <constraints>
+                  <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <model>
+                    <item value="Guatemala"/>
+                    <item value="Alta Verapaz"/>
+                    <item value="Baja Verapaz"/>
+                    <item value="Chiquimula"/>
+                    <item value="El Progreso"/>
+                    <item value="Quiché"/>
+                    <item value="Huehuetenango"/>
+                    <item value="Izabal"/>
+                    <item value="Jalapa"/>
+                    <item value="Jutiapa"/>
+                    <item value="Quetzaltenango"/>
+                    <item value="Retalhuleu"/>
+                    <item value="San Marcos"/>
+                    <item value="Santa Rosa"/>
+                    <item value="Sololá"/>
+                    <item value="Suchitepéquez"/>
+                    <item value="Totonicapán"/>
+                    <item value="Zacapa"/>
+                  </model>
+                </properties>
+              </component>
+              <component id="cc8d8" class="javax.swing.JComboBox" binding="origenMunicomboBox2">
+                <constraints>
+                  <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <model>
+                    <item value="Guatemala"/>
+                    <item value="Santa Catarina Pinula"/>
+                    <item value="San José Pinula"/>
+                    <item value="San José del Golfo"/>
+                    <item value="Palencia"/>
+                    <item value="Chinautla"/>
+                    <item value="San Pedro Ayampuc"/>
+                    <item value="Mixco"/>
+                    <item value="San Pedro Sacatepequez"/>
+                    <item value="San Juan Sacatepequez"/>
+                    <item value="San Raymundo"/>
+                    <item value="Chuarrancho"/>
+                    <item value="Fraijanes"/>
+                    <item value="Amatitlán"/>
+                    <item value="Villa Nueva"/>
+                    <item value="Villa Canales"/>
+                    <item value="San Miguel Petapa"/>
+                    <item value="Cobán"/>
+                    <item value="Santa Cruz Verapaz"/>
+                    <item value="San Cristobal Verapaz"/>
+                    <item value="Tactíc"/>
+                    <item value="Tamahú"/>
+                    <item value="San Miguel Tucurú"/>
+                    <item value="Panzos"/>
+                    <item value="Senahú"/>
+                    <item value="San Pedro Carchá"/>
+                    <item value="SanJuan Chamelco"/>
+                    <item value="Lanquín"/>
+                    <item value="Santa María Cahabón"/>
+                    <item value="Chisec"/>
+                    <item value="Chahal"/>
+                    <item value="Fray Bartolomé de las Casas"/>
+                    <item value="Santa Catarina La Tinta"/>
+                    <item value="Salamá"/>
+                    <item value="San Miguel Chicaj"/>
+                    <item value="Rabinal"/>
+                    <item value="Cubulco"/>
+                    <item value="Granados"/>
+                    <item value="Santa Cruz El Chol"/>
+                    <item value="San Jerónimo"/>
+                    <item value="Purulhá"/>
+                    <item value="Chimaltenango"/>
+                    <item value="San José Poaquil"/>
+                    <item value="San Martín Jilotepeque"/>
+                    <item value="San Juan Comalapa"/>
+                    <item value="Santa Apolonia"/>
+                    <item value="Tecpán Guatemala"/>
+                    <item value="Patzun"/>
+                    <item value="San Miguel Pochuta"/>
+                    <item value="Patzicia"/>
+                    <item value="Santa Cruz Balanyá"/>
+                    <item value="Acatenango"/>
+                    <item value="San Pedro Yepocapa"/>
+                    <item value="San Andrés Itzapa"/>
+                    <item value="Parramos"/>
+                    <item value="Zaragoza"/>
+                    <item value="El Tejar"/>
+                    <item value="Chiquimula"/>
+                    <item value="San José La Arada"/>
+                    <item value="San Juan Hermita"/>
+                    <item value="Jocotán"/>
+                    <item value="Camotán"/>
+                    <item value="Olopa"/>
+                    <item value="Esquipulas"/>
+                    <item value="Concepción Las Minas"/>
+                    <item value="Quezaltepeque"/>
+                    <item value="San Jacinto"/>
+                    <item value="Ipala"/>
+                    <item value="Flores"/>
+                    <item value="San José"/>
+                    <item value="San Benito"/>
+                    <item value="San Andrés"/>
+                    <item value="La Libertad"/>
+                    <item value="San Francisco"/>
+                    <item value="Santa Ana"/>
+                    <item value="Dolores"/>
+                    <item value="San Luis"/>
+                    <item value="Sayaxche"/>
+                    <item value="Melchor de Mencos"/>
+                    <item value="Poptún"/>
+                    <item value="Santa Cruz del Quiche"/>
+                    <item value="Chiche"/>
+                    <item value="Chinique"/>
+                    <item value="Zacualpa"/>
+                    <item value="Chajul"/>
+                    <item value="Santo Tomás Chichicstenango"/>
+                    <item value="Patzité"/>
+                    <item value="San Antonio Ilotenango"/>
+                    <item value="San Pedro Jocopilas"/>
+                    <item value="Cunén"/>
+                    <item value="San Juan Cotzal"/>
+                    <item value="Joyaba"/>
+                    <item value="Santa María Nebaj"/>
+                    <item value="San Andrés Sajcabajá"/>
+                    <item value="San Miguel Uspatán"/>
+                    <item value="Sacapulas"/>
+                    <item value="San Bartolomé Jocotenango"/>
+                    <item value="Canilla"/>
+                    <item value="Chicaman"/>
+                    <item value="Playa Grnade - Ixcán"/>
+                    <item value="Pachalúm"/>
+                    <item value="Escuintla"/>
+                    <item value="Santa Lucía Cotzumalguapa"/>
+                    <item value="La Democracia"/>
+                    <item value="Siquinalá"/>
+                    <item value="Masagua"/>
+                    <item value="Pueblo Nuevo Tiquisate"/>
+                    <item value="La Gomera"/>
+                    <item value="Guanagazapa"/>
+                    <item value="Puerto de San José"/>
+                    <item value="Iztapa"/>
+                    <item value="Palín"/>
+                    <item value="San Vicente Pacaya"/>
+                    <item value="Nueva Concepción"/>
+                    <item value="Huehuetenango"/>
+                    <item value="Chiantla"/>
+                    <item value="Malacatancito"/>
+                    <item value="Cuilco"/>
+                    <item value="Nentón"/>
+                    <item value="San Pedro Necta"/>
+                    <item value="Jacaltenango"/>
+                    <item value="San Pedro Soloma"/>
+                    <item value="San Ildelfonso Ixtahuac´n"/>
+                    <item value="Santa Bárbara"/>
+                    <item value="La Libertad"/>
+                    <item value="La Democracia"/>
+                    <item value="San Miguel Acatán"/>
+                    <item value="San Rafael La Independencia"/>
+                    <item value="Todos Santos Chuchcumatán"/>
+                    <item value="San Juan Atitán"/>
+                    <item value="Santa Eulalia"/>
+                    <item value="San Mateo Ixtatán"/>
+                    <item value="Colotenango"/>
+                    <item value="San Sebastián Huehuetenango"/>
+                    <item value="Tectitán"/>
+                    <item value="Concepción Huista"/>
+                    <item value="San Juan Ixcoy"/>
+                    <item value="San Antonio Huista"/>
+                    <item value="San Sebastián Coatán"/>
+                    <item value="Santa Cruz Barillas"/>
+                    <item value="Aguacatán"/>
+                    <item value="San Rafael Petzal"/>
+                    <item value="San Gaspar Ixchil"/>
+                    <item value="Santiago Chimaltenango"/>
+                    <item value="Santa Ana Huista"/>
+                    <item value="Puerto Barrios"/>
+                    <item value="Livingston"/>
+                    <item value="El Estor"/>
+                    <item value="Morales"/>
+                    <item value="Los Amates"/>
+                    <item value="Jalapa"/>
+                    <item value="San Pedro Pinula"/>
+                    <item value="San Luis Jilotepeque"/>
+                    <item value="San Manuel Chaparrón"/>
+                    <item value="San Carlos Alzatate"/>
+                    <item value="Monjas"/>
+                    <item value="Mataquescuintla"/>
+                    <item value="Jutiapa"/>
+                    <item value="El Progreso"/>
+                    <item value="Santa Catarina Mita"/>
+                    <item value="Agua Blanca"/>
+                    <item value="Asunción Mita"/>
+                    <item value="Yupiltepeque"/>
+                    <item value="Atescatempa"/>
+                    <item value="Jerez"/>
+                    <item value="El Adelanto"/>
+                    <item value="Zapotitlán"/>
+                    <item value="Comapa"/>
+                    <item value="Jalpatagua"/>
+                    <item value="Conguaco"/>
+                    <item value="Moyuta"/>
+                    <item value="Pasaco"/>
+                    <item value="San José Acatempa"/>
+                    <item value="Quezada"/>
+                    <item value="Quetzaltenango"/>
+                    <item value="Salcajá"/>
+                    <item value="Olintepeque"/>
+                    <item value="San Carlos Sija"/>
+                    <item value="Sibilia"/>
+                    <item value="Cabrican"/>
+                    <item value="Cajola"/>
+                    <item value="San Miguel Siguilça"/>
+                    <item value="San Juan Ostuncalco"/>
+                    <item value="San Mateo"/>
+                    <item value="Concepción Chiquirichapa"/>
+                    <item value="San Martín Sacatepequez"/>
+                    <item value="Almolonga"/>
+                    <item value="Cantel"/>
+                    <item value="Huitán"/>
+                    <item value="Zunil"/>
+                    <item value="Colomba"/>
+                    <item value="San Francisco La Unión"/>
+                    <item value="El Palmar"/>
+                    <item value="Coatepeque"/>
+                    <item value="Génova"/>
+                    <item value="Flores Costa Cuca"/>
+                    <item value="La Esperanza"/>
+                    <item value="Palestina de los Altos"/>
+                    <item value="Retalhuelu"/>
+                    <item value="San Sebastián"/>
+                    <item value="Santa Cruz Mulúa"/>
+                    <item value="San Martín Zapotitlán"/>
+                    <item value="San Felipe Retalhuleu"/>
+                    <item value="San Andrés Villa Seca"/>
+                    <item value="Champerico"/>
+                    <item value="Nuevo San Carlos"/>
+                    <item value="El Asintal"/>
+                    <item value="Antigua Guatemala"/>
+                    <item value="Jocotenango"/>
+                    <item value="Pastores"/>
+                    <item value="Sumpango"/>
+                    <item value="Santo Domingo Xenacoj"/>
+                    <item value="Santiago Sacatepequez"/>
+                    <item value="San Bartolomé Milpas Altas"/>
+                    <item value="San Lucas Sacatepequez"/>
+                    <item value="Santa Lucía Milpas Altas"/>
+                    <item value="Magdalena Milpas Altas"/>
+                    <item value="Santa María de Jesús"/>
+                    <item value="Ciudad Vieja"/>
+                    <item value="San Miguel Dueñas"/>
+                    <item value="San Juan Alotenango"/>
+                    <item value="San Antonio Aguas Calientes"/>
+                    <item value="Santa Catarina Barahona"/>
+                    <item value="San Marcos"/>
+                    <item value="San Pedro Sacatepéquez"/>
+                    <item value="Comitancillo"/>
+                    <item value="San Antonio Sacatepéquez"/>
+                    <item value="San Miguel Ixtahuacan"/>
+                    <item value="Concepción Tutuapa"/>
+                    <item value="Tacaná"/>
+                    <item value="Sibinal"/>
+                    <item value="Tajumulco"/>
+                    <item value="Tejutla"/>
+                    <item value="San Rafael Pié de la Cuesta"/>
+                    <item value="Nuevo Progreso"/>
+                    <item value="El Tumbador"/>
+                    <item value="San José El Rodeo"/>
+                    <item value="Malacatán"/>
+                    <item value="Catarina"/>
+                    <item value="Ayutla"/>
+                    <item value="Ocos"/>
+                    <item value="San Pablo"/>
+                    <item value="El Quetzal"/>
+                    <item value="La Reforma"/>
+                    <item value="Pajapita"/>
+                    <item value="Ixchiguan"/>
+                    <item value="San José Ojetenán"/>
+                    <item value="San Cristóbal Cucho"/>
+                    <item value="Sipacapa"/>
+                    <item value="Esquipulas Palo Gordo"/>
+                    <item value="Río Blanco"/>
+                    <item value="San Lorenzo"/>
+                    <item value="Cuilapa"/>
+                    <item value="Berberena"/>
+                    <item value="San Rosa de Lima"/>
+                    <item value="Casillas"/>
+                    <item value="San Rafael Las Flores"/>
+                    <item value="Oratorio"/>
+                    <item value="San Juan TEcuaco"/>
+                    <item value="Chiquimulilla"/>
+                    <item value="Taxisco"/>
+                    <item value="Santa María Ixhuatan"/>
+                    <item value="Guazacapán"/>
+                    <item value="Santa Cruz Naranjo"/>
+                    <item value="Pueblo Nuevo Viñas"/>
+                    <item value="Nueva Santa Rosa"/>
+                    <item value="Sololá"/>
+                    <item value="San José Chacaya"/>
+                    <item value="Santa María Visitación"/>
+                    <item value="Santa Lucía Utatlán"/>
+                    <item value="Nahualá"/>
+                    <item value="Santa Catarina Ixtahuacán"/>
+                    <item value="Santa Clara La Laguna"/>
+                    <item value="Concepción"/>
+                    <item value="San Andrés Semetabaj"/>
+                    <item value="Panajachel"/>
+                    <item value="Santa Catarina Palopó"/>
+                    <item value="San Antonio Palopó"/>
+                    <item value="San Lucas Tolimán"/>
+                    <item value="Santa Cruz La Laguna"/>
+                    <item value="Sna Pablo La Laguna"/>
+                    <item value="San Marcos La Laguna"/>
+                    <item value="San Juan La Laguna"/>
+                    <item value="San Pedro La Laguna"/>
+                    <item value="Santiago Atitlá"/>
+                    <item value="Mazatenango"/>
+                    <item value="Cuyotenango"/>
+                    <item value="San Francisco Zapotitlán"/>
+                    <item value="San Bernardino"/>
+                    <item value="San José El Ídolo"/>
+                    <item value="Santo Domingo Suchitepequez"/>
+                    <item value="San Lorenzo"/>
+                    <item value="Samayac"/>
+                    <item value="San Pablo Jocopilas"/>
+                    <item value="San Antonio Suchitepéquez"/>
+                    <item value="San Miguel Panán"/>
+                    <item value="San Gabriel"/>
+                    <item value="Chicacao"/>
+                    <item value="Patulul"/>
+                    <item value="Santa Bárbara"/>
+                    <item value="San Juan Bautista"/>
+                    <item value="Santo Tomás La Unión"/>
+                    <item value="Zunilito"/>
+                    <item value="Pueblo Nuevo Suchitepéquez"/>
+                    <item value="Río Bravo"/>
+                    <item value="Totonicapán"/>
+                    <item value="San Cristóbal Totonicapán"/>
+                    <item value="San Francisco El Alto"/>
+                    <item value="San Andrés Xecul"/>
+                    <item value="Momostenango"/>
+                    <item value="Santa María Chiquimula"/>
+                    <item value="Santa Lucía La Reforma"/>
+                    <item value="San Bartolo Aguas Calientes"/>
+                    <item value="Zacapa"/>
+                    <item value="Estanzuela"/>
+                    <item value="Río Hondo"/>
+                    <item value="gualán"/>
+                    <item value="Teculután"/>
+                    <item value="Usumatlán"/>
+                    <item value="Cabañas"/>
+                    <item value="San Diego"/>
+                    <item value="La Unión"/>
+                    <item value="Huite"/>
+                  </model>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="f3427" layout-manager="GridLayoutManager" row-count="3" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="d4105" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Destino"/>
+                </properties>
+              </component>
+              <vspacer id="be59d">
+                <constraints>
+                  <grid row="1" column="0" row-span="2" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </vspacer>
+              <component id="d0336" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Municipios"/>
+                </properties>
+              </component>
+              <component id="77c35" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Departamento"/>
+                </properties>
+              </component>
+              <component id="33b0c" class="javax.swing.JComboBox" binding="destinoDepacomboBox3">
+                <constraints>
+                  <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <model>
+                    <item value="Guatemala"/>
+                    <item value="Alta Verapaz"/>
+                    <item value="Baja Verapaz"/>
+                    <item value="Chiquimula"/>
+                    <item value="El Progreso"/>
+                    <item value="Quiché"/>
+                    <item value="Huehuetenango"/>
+                    <item value="Izabal"/>
+                    <item value="Jalapa"/>
+                    <item value="Jutiapa"/>
+                    <item value="Quetzaltenango"/>
+                    <item value="Retalhuleu"/>
+                    <item value="San Marcos"/>
+                    <item value="Santa Rosa"/>
+                    <item value="Sololá"/>
+                    <item value="Suchitepéquez"/>
+                    <item value="Totonicapán"/>
+                    <item value="Zacapa"/>
+                  </model>
+                </properties>
+              </component>
+              <component id="6ba22" class="javax.swing.JComboBox" binding="destinoMunicomboBox4">
+                <constraints>
+                  <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <model>
+                    <item value="Guatemala"/>
+                    <item value="Santa Catarina Pinula"/>
+                    <item value="San José Pinula"/>
+                    <item value="San José del Golfo"/>
+                    <item value="Palencia"/>
+                    <item value="Chinautla"/>
+                    <item value="San Pedro Ayampuc"/>
+                    <item value="Mixco"/>
+                    <item value="San Pedro Sacatepequez"/>
+                    <item value="San Juan Sacatepequez"/>
+                    <item value="San Raymundo"/>
+                    <item value="Chuarrancho"/>
+                    <item value="Fraijanes"/>
+                    <item value="Amatitlán"/>
+                    <item value="Villa Nueva"/>
+                    <item value="Villa Canales"/>
+                    <item value="San Miguel Petapa"/>
+                    <item value="Cobán"/>
+                    <item value="Santa Cruz Verapaz"/>
+                    <item value="San Cristobal Verapaz"/>
+                    <item value="Tactíc"/>
+                    <item value="Tamahú"/>
+                    <item value="San Miguel Tucurú"/>
+                    <item value="Panzos"/>
+                    <item value="Senahú"/>
+                    <item value="San Pedro Carchá"/>
+                    <item value="SanJuan Chamelco"/>
+                    <item value="Lanquín"/>
+                    <item value="Santa María Cahabón"/>
+                    <item value="Chisec"/>
+                    <item value="Chahal"/>
+                    <item value="Fray Bartolomé de las Casas"/>
+                    <item value="Santa Catarina La Tinta"/>
+                    <item value="Salamá"/>
+                    <item value="San Miguel Chicaj"/>
+                    <item value="Rabinal"/>
+                    <item value="Cubulco"/>
+                    <item value="Granados"/>
+                    <item value="Santa Cruz El Chol"/>
+                    <item value="San Jerónimo"/>
+                    <item value="Purulhá"/>
+                    <item value="Chimaltenango"/>
+                    <item value="San José Poaquil"/>
+                    <item value="San Martín Jilotepeque"/>
+                    <item value="San Juan Comalapa"/>
+                    <item value="Santa Apolonia"/>
+                    <item value="Tecpán Guatemala"/>
+                    <item value="Patzun"/>
+                    <item value="San Miguel Pochuta"/>
+                    <item value="Patzicia"/>
+                    <item value="Santa Cruz Balanyá"/>
+                    <item value="Acatenango"/>
+                    <item value="San Pedro Yepocapa"/>
+                    <item value="San Andrés Itzapa"/>
+                    <item value="Parramos"/>
+                    <item value="Zaragoza"/>
+                    <item value="El Tejar"/>
+                    <item value="Chiquimula"/>
+                    <item value="San José La Arada"/>
+                    <item value="San Juan Hermita"/>
+                    <item value="Jocotán"/>
+                    <item value="Camotán"/>
+                    <item value="Olopa"/>
+                    <item value="Esquipulas"/>
+                    <item value="Concepción Las Minas"/>
+                    <item value="Quezaltepeque"/>
+                    <item value="San Jacinto"/>
+                    <item value="Ipala"/>
+                    <item value="Flores"/>
+                    <item value="San José"/>
+                    <item value="San Benito"/>
+                    <item value="San Andrés"/>
+                    <item value="La Libertad"/>
+                    <item value="San Francisco"/>
+                    <item value="Santa Ana"/>
+                    <item value="Dolores"/>
+                    <item value="San Luis"/>
+                    <item value="Sayaxche"/>
+                    <item value="Melchor de Mencos"/>
+                    <item value="Poptún"/>
+                    <item value="Santa Cruz del Quiche"/>
+                    <item value="Chiche"/>
+                    <item value="Chinique"/>
+                    <item value="Zacualpa"/>
+                    <item value="Chajul"/>
+                    <item value="Santo Tomás Chichicstenango"/>
+                    <item value="Patzité"/>
+                    <item value="San Antonio Ilotenango"/>
+                    <item value="San Pedro Jocopilas"/>
+                    <item value="Cunén"/>
+                    <item value="San Juan Cotzal"/>
+                    <item value="Joyaba"/>
+                    <item value="Santa María Nebaj"/>
+                    <item value="San Andrés Sajcabajá"/>
+                    <item value="San Miguel Uspatán"/>
+                    <item value="Sacapulas"/>
+                    <item value="San Bartolomé Jocotenango"/>
+                    <item value="Canilla"/>
+                    <item value="Chicaman"/>
+                    <item value="Playa Grnade - Ixcán"/>
+                    <item value="Pachalúm"/>
+                    <item value="Escuintla"/>
+                    <item value="Santa Lucía Cotzumalguapa"/>
+                    <item value="La Democracia"/>
+                    <item value="Siquinalá"/>
+                    <item value="Masagua"/>
+                    <item value="Pueblo Nuevo Tiquisate"/>
+                    <item value="La Gomera"/>
+                    <item value="Guanagazapa"/>
+                    <item value="Puerto de San José"/>
+                    <item value="Iztapa"/>
+                    <item value="Palín"/>
+                    <item value="San Vicente Pacaya"/>
+                    <item value="Nueva Concepción"/>
+                    <item value="Huehuetenango"/>
+                    <item value="Chiantla"/>
+                    <item value="Malacatancito"/>
+                    <item value="Cuilco"/>
+                    <item value="Nentón"/>
+                    <item value="San Pedro Necta"/>
+                    <item value="Jacaltenango"/>
+                    <item value="San Pedro Soloma"/>
+                    <item value="San Ildelfonso Ixtahuac´n"/>
+                    <item value="Santa Bárbara"/>
+                    <item value="La Libertad"/>
+                    <item value="La Democracia"/>
+                    <item value="San Miguel Acatán"/>
+                    <item value="San Rafael La Independencia"/>
+                    <item value="Todos Santos Chuchcumatán"/>
+                    <item value="San Juan Atitán"/>
+                    <item value="Santa Eulalia"/>
+                    <item value="San Mateo Ixtatán"/>
+                    <item value="Colotenango"/>
+                    <item value="San Sebastián Huehuetenango"/>
+                    <item value="Tectitán"/>
+                    <item value="Concepción Huista"/>
+                    <item value="San Juan Ixcoy"/>
+                    <item value="San Antonio Huista"/>
+                    <item value="San Sebastián Coatán"/>
+                    <item value="Santa Cruz Barillas"/>
+                    <item value="Aguacatán"/>
+                    <item value="San Rafael Petzal"/>
+                    <item value="San Gaspar Ixchil"/>
+                    <item value="Santiago Chimaltenango"/>
+                    <item value="Santa Ana Huista"/>
+                    <item value="Puerto Barrios"/>
+                    <item value="Livingston"/>
+                    <item value="El Estor"/>
+                    <item value="Morales"/>
+                    <item value="Los Amates"/>
+                    <item value="Jalapa"/>
+                    <item value="San Pedro Pinula"/>
+                    <item value="San Luis Jilotepeque"/>
+                    <item value="San Manuel Chaparrón"/>
+                    <item value="San Carlos Alzatate"/>
+                    <item value="Monjas"/>
+                    <item value="Mataquescuintla"/>
+                    <item value="Jutiapa"/>
+                    <item value="El Progreso"/>
+                    <item value="Santa Catarina Mita"/>
+                    <item value="Agua Blanca"/>
+                    <item value="Asunción Mita"/>
+                    <item value="Yupiltepeque"/>
+                    <item value="Atescatempa"/>
+                    <item value="Jerez"/>
+                    <item value="El Adelanto"/>
+                    <item value="Zapotitlán"/>
+                    <item value="Comapa"/>
+                    <item value="Jalpatagua"/>
+                    <item value="Conguaco"/>
+                    <item value="Moyuta"/>
+                    <item value="Pasaco"/>
+                    <item value="San José Acatempa"/>
+                    <item value="Quezada"/>
+                    <item value="Quetzaltenango"/>
+                    <item value="Salcajá"/>
+                    <item value="Olintepeque"/>
+                    <item value="San Carlos Sija"/>
+                    <item value="Sibilia"/>
+                    <item value="Cabrican"/>
+                    <item value="Cajola"/>
+                    <item value="San Miguel Siguilça"/>
+                    <item value="San Juan Ostuncalco"/>
+                    <item value="San Mateo"/>
+                    <item value="Concepción Chiquirichapa"/>
+                    <item value="San Martín Sacatepequez"/>
+                    <item value="Almolonga"/>
+                    <item value="Cantel"/>
+                    <item value="Huitán"/>
+                    <item value="Zunil"/>
+                    <item value="Colomba"/>
+                    <item value="San Francisco La Unión"/>
+                    <item value="El Palmar"/>
+                    <item value="Coatepeque"/>
+                    <item value="Génova"/>
+                    <item value="Flores Costa Cuca"/>
+                    <item value="La Esperanza"/>
+                    <item value="Palestina de los Altos"/>
+                    <item value="Retalhuelu"/>
+                    <item value="San Sebastián"/>
+                    <item value="Santa Cruz Mulúa"/>
+                    <item value="San Martín Zapotitlán"/>
+                    <item value="San Felipe Retalhuleu"/>
+                    <item value="San Andrés Villa Seca"/>
+                    <item value="Champerico"/>
+                    <item value="Nuevo San Carlos"/>
+                    <item value="El Asintal"/>
+                    <item value="Antigua Guatemala"/>
+                    <item value="Jocotenango"/>
+                    <item value="Pastores"/>
+                    <item value="Sumpango"/>
+                    <item value="Santo Domingo Xenacoj"/>
+                    <item value="Santiago Sacatepequez"/>
+                    <item value="San Bartolomé Milpas Altas"/>
+                    <item value="San Lucas Sacatepequez"/>
+                    <item value="Santa Lucía Milpas Altas"/>
+                    <item value="Magdalena Milpas Altas"/>
+                    <item value="Santa María de Jesús"/>
+                    <item value="Ciudad Vieja"/>
+                    <item value="San Miguel Dueñas"/>
+                    <item value="San Juan Alotenango"/>
+                    <item value="San Antonio Aguas Calientes"/>
+                    <item value="Santa Catarina Barahona"/>
+                    <item value="San Marcos"/>
+                    <item value="San Pedro Sacatepéquez"/>
+                    <item value="Comitancillo"/>
+                    <item value="San Antonio Sacatepéquez"/>
+                    <item value="San Miguel Ixtahuacan"/>
+                    <item value="Concepción Tutuapa"/>
+                    <item value="Tacaná"/>
+                    <item value="Sibinal"/>
+                    <item value="Tajumulco"/>
+                    <item value="Tejutla"/>
+                    <item value="San Rafael Pié de la Cuesta"/>
+                    <item value="Nuevo Progreso"/>
+                    <item value="El Tumbador"/>
+                    <item value="San José El Rodeo"/>
+                    <item value="Malacatán"/>
+                    <item value="Catarina"/>
+                    <item value="Ayutla"/>
+                    <item value="Ocos"/>
+                    <item value="San Pablo"/>
+                    <item value="El Quetzal"/>
+                    <item value="La Reforma"/>
+                    <item value="Pajapita"/>
+                    <item value="Ixchiguan"/>
+                    <item value="San José Ojetenán"/>
+                    <item value="San Cristóbal Cucho"/>
+                    <item value="Sipacapa"/>
+                    <item value="Esquipulas Palo Gordo"/>
+                    <item value="Río Blanco"/>
+                    <item value="San Lorenzo"/>
+                    <item value="Cuilapa"/>
+                    <item value="Berberena"/>
+                    <item value="San Rosa de Lima"/>
+                    <item value="Casillas"/>
+                    <item value="San Rafael Las Flores"/>
+                    <item value="Oratorio"/>
+                    <item value="San Juan TEcuaco"/>
+                    <item value="Chiquimulilla"/>
+                    <item value="Taxisco"/>
+                    <item value="Santa María Ixhuatan"/>
+                    <item value="Guazacapán"/>
+                    <item value="Santa Cruz Naranjo"/>
+                    <item value="Pueblo Nuevo Viñas"/>
+                    <item value="Nueva Santa Rosa"/>
+                    <item value="Sololá"/>
+                    <item value="San José Chacaya"/>
+                    <item value="Santa María Visitación"/>
+                    <item value="Santa Lucía Utatlán"/>
+                    <item value="Nahualá"/>
+                    <item value="Santa Catarina Ixtahuacán"/>
+                    <item value="Santa Clara La Laguna"/>
+                    <item value="Concepción"/>
+                    <item value="San Andrés Semetabaj"/>
+                    <item value="Panajachel"/>
+                    <item value="Santa Catarina Palopó"/>
+                    <item value="San Antonio Palopó"/>
+                    <item value="San Lucas Tolimán"/>
+                    <item value="Santa Cruz La Laguna"/>
+                    <item value="Sna Pablo La Laguna"/>
+                    <item value="San Marcos La Laguna"/>
+                    <item value="San Juan La Laguna"/>
+                    <item value="San Pedro La Laguna"/>
+                    <item value="Santiago Atitlá"/>
+                    <item value="Mazatenango"/>
+                    <item value="Cuyotenango"/>
+                    <item value="San Francisco Zapotitlán"/>
+                    <item value="San Bernardino"/>
+                    <item value="San José El Ídolo"/>
+                    <item value="Santo Domingo Suchitepequez"/>
+                    <item value="San Lorenzo"/>
+                    <item value="Samayac"/>
+                    <item value="San Pablo Jocopilas"/>
+                    <item value="San Antonio Suchitepéquez"/>
+                    <item value="San Miguel Panán"/>
+                    <item value="San Gabriel"/>
+                    <item value="Chicacao"/>
+                    <item value="Patulul"/>
+                    <item value="Santa Bárbara"/>
+                    <item value="San Juan Bautista"/>
+                    <item value="Santo Tomás La Unión"/>
+                    <item value="Zunilito"/>
+                    <item value="Pueblo Nuevo Suchitepéquez"/>
+                    <item value="Río Bravo"/>
+                    <item value="Totonicapán"/>
+                    <item value="San Cristóbal Totonicapán"/>
+                    <item value="San Francisco El Alto"/>
+                    <item value="San Andrés Xecul"/>
+                    <item value="Momostenango"/>
+                    <item value="Santa María Chiquimula"/>
+                    <item value="Santa Lucía La Reforma"/>
+                    <item value="San Bartolo Aguas Calientes"/>
+                    <item value="Zacapa"/>
+                    <item value="Estanzuela"/>
+                    <item value="Río Hondo"/>
+                    <item value="gualán"/>
+                    <item value="Teculután"/>
+                    <item value="Usumatlán"/>
+                    <item value="Cabañas"/>
+                    <item value="San Diego"/>
+                    <item value="La Unión"/>
+                    <item value="Huite"/>
+                  </model>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="e6ec3" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <grid id="4716b" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="32606" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value="Numero de paquetes"/>
+                    </properties>
+                  </component>
+                  <component id="ce3a5" class="javax.swing.JTextField" binding="numerocajastextField1">
+                    <constraints>
+                      <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties/>
+                  </component>
+                </children>
+              </grid>
+              <grid id="7baf" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="11245" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value="Tamaño de paquetes"/>
+                    </properties>
+                  </component>
+                  <component id="9cf89" class="javax.swing.JComboBox" binding="tamañocajacomboBox5">
+                    <constraints>
+                      <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <model>
+                        <item value="Grande"/>
+                        <item value="Mediano"/>
+                        <item value="Pequeño"/>
+                      </model>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </grid>
+          <grid id="7a7d8" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <grid id="60797" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children/>
+              </grid>
+              <grid id="62ee7" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="52357" class="javax.swing.JButton" binding="cotizarButton" default-binding="true">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value="Cotizar"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </grid>
+          <grid id="500f" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <grid id="47407" layout-manager="GridLayoutManager" row-count="1" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="53d97" class="javax.swing.JTextField" binding="precionormatextField1">
+                    <constraints>
+                      <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <editable value="false"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="100e2" class="javax.swing.JTextField" binding="precioespecialtextField2">
+                    <constraints>
+                      <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <editable value="false"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="85007" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value="Precio Normal  Q."/>
+                    </properties>
+                  </component>
+                  <component id="2f162" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value="Precio Especial  Q."/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </grid>
+          <grid id="d8fa8" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="2a3f9" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="8ea2a" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Cotizacion y pago"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="b5551" layout-manager="GridLayoutManager" row-count="8" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="450c8" layout-manager="GridLayoutManager" row-count="7" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="8cf13" class="javax.swing.JComboBox" binding="tipofacturacomboBox7">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <model>
+                    <item value="C/F"/>
+                    <item value="NIT"/>
+                  </model>
+                </properties>
+              </component>
+              <component id="8d750" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Datos de Facturacion"/>
+                </properties>
+              </component>
+              <component id="3bd05" class="javax.swing.JTextField" binding="tarjetastextField1">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <editable value="false"/>
+                  <enabled value="true"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="4a56b" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Tarjeta de credito o debito"/>
+                </properties>
+              </component>
+              <grid id="2f148" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="3" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="a4509" class="javax.swing.JComboBox" binding="tipopagocomboBox6">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <model>
+                        <item value="Pago contra entrega (recargo Q5.00)"/>
+                        <item value="Tarjeta"/>
+                      </model>
+                    </properties>
+                  </component>
+                  <component id="88763" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value="Tipo de pago"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <component id="8efe7" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="6" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Nombre del destinatario"/>
+                </properties>
+              </component>
+              <component id="78690" class="javax.swing.JTextField" binding="nombredestinotextField1">
+                <constraints>
+                  <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="d1535" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="CVV"/>
+                </properties>
+              </component>
+              <component id="75049" class="javax.swing.JTextField" binding="cvvtextField1">
+                <constraints>
+                  <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <enabled value="false"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="fb354" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="a150f" class="javax.swing.JButton" binding="realizarPagoButton" default-binding="true">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Realizar Pago"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="7f26c" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <grid id="dd283" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="3a9ec" class="javax.swing.JButton" binding="giaButton">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value="GUIA"/>
+                    </properties>
+                  </component>
+                  <component id="fdcf6" class="javax.swing.JButton" binding="facturaButton" default-binding="true">
+                    <constraints>
+                      <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value="Factura"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="3ba96" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <grid id="f77df" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children/>
+                  </grid>
+                  <grid id="41eb9" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="6ba7d" class="javax.swing.JButton" binding="cancelarPagoButton">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <text value="Cancelar"/>
+                        </properties>
+                      </component>
+                      <vspacer id="6a8c8">
+                        <constraints>
+                          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                      </vspacer>
+                    </children>
+                  </grid>
+                  <grid id="640a3" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children/>
+                  </grid>
+                </children>
+              </grid>
+            </children>
+          </grid>
+          <grid id="35640" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="65fd2" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="50ee7" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="c6a7f" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Tipo de precio"/>
+                </properties>
+              </component>
+              <component id="cec51" class="javax.swing.JComboBox" binding="tipopreciocomboBox1">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <model>
+                    <item value="Normal"/>
+                    <item value="Especial"/>
+                  </model>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
